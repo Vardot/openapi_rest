@@ -1,0 +1,12 @@
+name: OpenAPI REST
+description: OpenAPI support for the REST module.
+type: module
+package: Web Services
+core: 8.x
+dependencies:
+  - openapi:openapi
+  - schemata:schemata
+  - schemata:schemata_json_schema
+test_dependencies:
+  - rest:rest
+
