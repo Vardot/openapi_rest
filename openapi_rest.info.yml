@@ -4,9 +4,7 @@ type: module
 package: Web Services
 core: 8.x
 dependencies:
-  - openapi:openapi
+  - openapi:openapi (>=8.x-2.x)
   - schemata:schemata
   - schemata:schemata_json_schema
-test_dependencies:
-  - rest:rest
 

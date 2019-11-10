@@ -136,4 +136,14 @@ final class RequestTestRest extends RequestTestBase {
     $this->assertEquals($rest_mimetypes, $actual, "REST root should only contain " . implode(' and ', $rest_mimetypes));
   }
 
+  /**
+   * Builds the expectations directory.
+   *
+   * @return string
+   *   The expectations directory.
+   */
+  protected function buildExpectationsDirectory() {
+    return sprintf('%s/expectations/%s', dirname(dirname(__DIR__)), static::API_MODULE);
+  }
+
 }
