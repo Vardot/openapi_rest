@@ -2,6 +2,20 @@
     "name": "vardot/openapi_rest",
     "type": "drupal-module",
     "description": "OpenAPI support for the REST module.",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+      {
+        "name": "Vardot",
+        "homepage": "https://www.drupal.org/vardot",
+        "role": "Maintainer"
+      }
+    ],
+    "support": {
+      "issues": "https://github.com/Vardot/openapi_rest/issues",
+      "source": "https://github.com/Vardot/openapi_rest"
+    },
     "require": {
         "drupal/schemata": "~1",
         "drupal/openapi": "~2"
