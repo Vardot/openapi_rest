@@ -15,7 +15,7 @@ use Drupal\Tests\openapi\Functional\RequestTestBase;
  * @requires module schemata
  * @requires module schemata_json_schema
  */
-final class RequestTestRest extends RequestTestBase {
+final class RestRequestTest extends RequestTestBase {
 
   /**
    * The API module being tested.
@@ -25,7 +25,7 @@ final class RequestTestRest extends RequestTestBase {
   /**
    * {@inheritdoc}
    */
-  public static $modules = [
+  protected static $modules = [
     'user',
     'field',
     'filter',

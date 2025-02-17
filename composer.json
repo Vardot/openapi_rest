@@ -1,12 +1,9 @@
 {
-    "name": "drupal/openapi_rest",
+    "name": "vardot/openapi_rest",
     "type": "drupal-module",
     "description": "OpenAPI support for the REST module.",
     "require": {
-        "drupal/schemata": "^1.0@beta",
-        "drupal/openapi": "^2"
-    },
-    "require-dev": {
-        "drupal/hal": "^1 || ^2"
+        "drupal/schemata": "~1",
+        "drupal/openapi": "~2"
     }
 }
